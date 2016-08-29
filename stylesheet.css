@@ -1,0 +1,137 @@
+/* unvisited link */
+a:link {
+    color: #666;
+    text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* Top bar right */
+.top {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+/* Top Links */
+.topli {
+    position: absolute;
+    display: inline-block;
+    right: 190px;
+    top: 5px;
+    font-size: 18px;
+    }
+
+/* Icon */
+
+.icon {
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    right: 160px;
+}
+/* Login Button */
+.login {
+    position: absolute;
+    display: inline-block;
+    right: 50px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    }
+
+/* Center Block */
+.center {
+    width: 400px;
+    height: 200px;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* center logo */
+.centerlogo {
+    margin-left: 60px;
+}
+
+/* inbox style */
+.inbox {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    position: inherit;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* submit position */
+.subpl {
+    margin-left: 45px;
+}
+
+/* submit style */
+.submit{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+   }
+
+/* fixbar */
+.botton {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 1260px;
+    height: 50px;
+    border-top: 1px solid #e4e4e4;
+   
+    }
+
+/* left Bottom */
+.leftbo {
+    position: relative;
+    display: inline-block;
+    bottom: auto;
+    left: 0;  
+    margin-top: 1%;
+    font-size: 18px;
+}
+
+/* right Bottom */
+.rightbo {
+    position: fixed;
+    display: inline-block;
+    bottom: auto;
+    right: 10px;
+    margin-top: 1%;
+    font-size: 18px;
+    
+ }
